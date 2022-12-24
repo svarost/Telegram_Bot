@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 if __name__ == '__main__':
-    app = ApplicationBuilder().token("5714842386:AAHw96gypiuk4F26Rg87VSWiD--scNVx_vM").build()
+    app = ApplicationBuilder().token("TOKEN").build()
 
     app.add_handler(CommandHandler('start', help_command))
     app.add_handler(CommandHandler('help', help_command))
